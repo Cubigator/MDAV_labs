@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+output/
+checkpoints/
+
+# Notebook temporary files
+*.json
+*.h5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Cache / test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Colab-specific uploads / generated files
+sample_data/
